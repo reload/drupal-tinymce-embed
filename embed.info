@@ -1,0 +1,7 @@
+name = TinyMCE embed HTML button
+description = Adds a new button for TinyMCE wysiwyg editor
+core = 6.x
+
+dependencies[] = wysiwyg
+
+

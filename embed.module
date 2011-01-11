@@ -1,0 +1,17 @@
+<?php 
+
+/**
+ * Implementation of hook_wysiwyg_include_directory().
+ */
+function embed_wysiwyg_include_directory($type) {
+  switch ($type) {
+    case 'plugins':
+      // look for plugins in subfolder $type
+      return $type;
+  }
+}
+
+
+
+
+?>
